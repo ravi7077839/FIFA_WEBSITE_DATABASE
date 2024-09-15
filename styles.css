@@ -1,0 +1,99 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: semi-transparent background */
+    color: white; /* Change text color to white */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center align the text */
+}
+
+header a {
+    color: white; /* Change link color to white */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between links */
+}
+
+header a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+
+.fifa-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* Adjust size of FIFA logo */
+}
+
+nav a {
+    margin: 15px;
+    color: #00BFFF; /* Blue */
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url("images/FOOTBALL STADIUM.png");
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #FF0000; /* Red */
+}
+
+input {
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #00BFFF; /* Blue */
+    color: black;
+}
+
+.player-card, .match-card {
+    background-color: #1E1E1E; /* Slightly lighter dark */
+    border: 1px solid #FF0000; /* Red border for matches */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;  /* Make it flow like cards */
+}
+
+.player-card img {
+    width: 100px; /* Adjust size of player images */
+    height: auto;
+}
+
+.player-card h3 {
+    color: #00BFFF; /* Blue */
+}
+
+.featured-players {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1E1E1E;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+}
